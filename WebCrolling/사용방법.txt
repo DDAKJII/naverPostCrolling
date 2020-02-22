@@ -1,0 +1,21 @@
+[WebCrolling폴더 안에 있는 SeleniumBasic-2.0.9.0.exe 설치하기]
+
+#크롬버전확인#
+(1) 크롬 최신버전 설치
+(2) 크롬 주소창에서 chrome://를 입력해 설치된 크롬 버전 확인
+
+#크롬드라이버다운로드#
+(3) https://chromedriver.storage.googleapis.com/index.html 접속,
+   크롬버전이 79이면 79.0.3945.36 클릭, 크롬버전이 80이면 80.0.3987.106 클릭
+   (버전에 맞는 링크 누르기)
+(4) 자신의 OS에 맞게 zip파일 다운로드 (윈도우는 win32.zip)
+
+#크롬드라이버적용#
+(5-1) Window7 : C:\ProgramFiles\SeleniumBasic 폴더에
+                     (4)에서 다운로드 했던 chromedriver.exe 붙여넣기 (덮어쓰기!!)
+(5-2) Window10 : C:\Users\(컴퓨터 계정 이름)\AppData\Local\SeleniumBasic 폴더에
+                      (4)에서 다운로드 했던 chromedriver.exe 붙여넣기 (덮어쓰기!!)
+(6) WebCrolling폴더 -> dist -> WebCrolling폴더에도 chromedriver.exe 붙여넣기 (덮어쓰기!!)
+
+#프로그램실행#
+(7) WebCrolling폴더 -> dist -> WebCrolling -> WebCrolling.exe 실행
